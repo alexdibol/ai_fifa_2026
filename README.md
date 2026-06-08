@@ -208,29 +208,6 @@ The purpose of the narrative is to make the output of the simulation readable wi
 
 Narrative is therefore treated as a form of interpretability.
 
----
-
-## Suggested Repository Structure
-
-A clean version of the repository may be organized as follows:
-
-```text
-.
-├── README.md
-├── LICENSE
-├── papers/
-│   └── PAPER FIFA MODEL.pdf
-├── narrative/
-│   └── THE COMPLETE NARRATIVE OF 104 MATCHES.pdf
-├── notebooks/
-│   └── [simulation notebooks]
-├── data/
-│   └── [fixtures, teams, results, audit logs]
-├── outputs/
-│   └── [tables, figures, narratives, summaries]
-└── docs/
-    └── [GitHub Pages or supporting documentation]
-```
 
 The exact repository structure may evolve, but the guiding principle should remain the same: separate research paper, narrative artifacts, executable notebooks, data, outputs, and documentation.
 
